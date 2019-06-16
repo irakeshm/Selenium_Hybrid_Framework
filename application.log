@@ -20,3 +20,121 @@
 2019-06-17 01:41:34,021 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2019-06-17 01:41:34,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2019-06-17 01:41:34,028 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/RKMishra/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-06-17 01:53:46,398  INFO [pool-1-thread-2] LoginTestCase:57 - Login- Logout Test Started!
+2019-06-17 01:53:48,229  INFO [pool-1-thread-1] LoginTestCase:39 - Login Test Started!
+2019-06-17 01:53:50,134  INFO [pool-1-thread-2] LoginTestCase:60 - Navigated to the Login Page From Home Page.
+2019-06-17 01:53:50,239 ERROR [pool-1-thread-1] LoginTestCase:50 - Exception Occured in Login Test stale element reference: element is not attached to the page document
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GUR00004638L', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\RKMishra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:19605}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 5d3bf63a2183f3685fe974eb8f3b6931
+2019-06-17 01:53:51,001 ERROR [pool-1-thread-2] LoginTestCase:71 - Exception Occured in Login- Logout Test invalid session id
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GUR00004638L', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\RKMishra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:19605}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 5d3bf63a2183f3685fe974eb8f3b6931
+2019-06-17 01:53:59,036  INFO [pool-1-thread-1] SearchandAdditemTestCase:62 - serachandAddItemtoCart Test Started!
+2019-06-17 01:54:02,942  INFO [pool-1-thread-1] SearchandAdditemTestCase:64 - Navigation to the Headphone Page
+2019-06-17 01:54:15,094  INFO [pool-1-thread-1] SearchandAdditemTestCase:67 - Selected Required Item From the Result Set
+2019-06-17 01:54:22,254  INFO [pool-1-thread-1] SearchandAdditemTestCase:70 - Added First Item to the Cart.Bose QuietComfort 35 II Wireless Bluetooth Headphones, Noise-Cancelling, with Alexa voice control, enabled with Bose AR – Black
+2019-06-17 01:54:26,877  INFO [pool-1-thread-1] SearchandAdditemTestCase:72 - Search for the Next Product.
+2019-06-17 01:54:50,253  INFO [pool-1-thread-1] SearchandAdditemTestCase:76 - Added Second Item to the Cart.Obuolys USB-C 3.1 (Type C) Multiport Multifunctional Adapter with USB 3.0, SD/TF Card Reader and USB Charging Port for MacBook, MacBook Air/MacBook Pro and PC/Tablet Equipped with USB-C Port-Gray
+2019-06-17 01:54:52,518  INFO [pool-1-thread-1] SearchandAdditemTestCase:78 - Navigated to the Cart Page.
+2019-06-17 01:54:53,987  INFO [pool-1-thread-1] SearchandAdditemTestCase:81 - Updated the Cart Items.
+2019-06-17 01:54:55,599  INFO [pool-1-thread-1] SearchandAdditemTestCase:83 - End of the serachandAddItemtoCart Test
+2019-06-17 01:54:57,241 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-06-17 01:54:57,243 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-06-17 01:54:57,247 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-17 01:54:57,249 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-17 01:54:57,249 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/RKMishra/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-06-17 01:54:57,594 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-06-17 01:54:57,595 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-06-17 01:54:57,595 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-17 01:54:57,596 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-17 01:54:57,597 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/RKMishra/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-06-17 01:57:55,839  INFO [pool-1-thread-2] LoginTestCase:57 - Login- Logout Test Started!
+2019-06-17 01:57:57,470  INFO [pool-1-thread-1] LoginTestCase:39 - Login Test Started!
+2019-06-17 01:57:59,515  INFO [pool-1-thread-3] SearchandAdditemTestCase:62 - serachandAddItemtoCart Test Started!
+2019-06-17 01:58:10,709 ERROR [pool-1-thread-2] LoginTestCase:71 - Exception Occured in Login- Logout Test element not interactable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GUR00004638L', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\RKMishra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:20061}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 3763c99e1547274c837fc0a7f54eaf66
+2019-06-17 01:58:20,760 ERROR [pool-1-thread-1] LoginTestCase:50 - Exception Occured in Login Test element not interactable
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GUR00004638L', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\RKMishra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:20061}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 3763c99e1547274c837fc0a7f54eaf66
+2019-06-17 01:58:21,132  INFO [pool-1-thread-3] SearchandAdditemTestCase:64 - Navigation to the Headphone Page
+2019-06-17 01:58:21,802 ERROR [pool-1-thread-3] SearchandAdditemTestCase:85 - Exception Occured in Login Test invalid session id
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GUR00004638L', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\RKMishra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:20061}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 3763c99e1547274c837fc0a7f54eaf66
+*** Element info: {Using=xpath, value=//span[contains(text(),'HEADPHONES')]}
+2019-06-17 01:58:24,324 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-06-17 01:58:24,327 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-06-17 01:58:24,329 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-17 01:58:24,331 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-17 01:58:24,332 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/RKMishra/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-06-17 01:58:24,858 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-06-17 01:58:24,859 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-06-17 01:58:24,860 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-17 01:58:24,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-17 01:58:24,863 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/RKMishra/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-06-17 02:01:33,578  INFO [TestNG] LoginTestCase:39 - Login Test Started!
+2019-06-17 02:01:36,647  INFO [TestNG] LoginTestCase:42 - Navigated to the Login Page From Home Page.
+2019-06-17 02:01:39,767  INFO [TestNG] LoginTestCase:44 - Log in to The Amazon Account.
+2019-06-17 02:01:40,645  INFO [TestNG] LoginTestCase:46 - Verified the Correct User Login.
+2019-06-17 02:01:40,645  INFO [TestNG] LoginTestCase:47 - End of the Login Test
+2019-06-17 02:01:48,919  INFO [TestNG] LoginTestCase:58 - Login- Logout Test Started!
+2019-06-17 02:01:52,704  INFO [TestNG] LoginTestCase:61 - Navigated to the Login Page From Home Page.
+2019-06-17 02:01:56,722  INFO [TestNG] LoginTestCase:63 - Log in to The Amazon Account.
+2019-06-17 02:01:56,807  INFO [TestNG] LoginTestCase:65 - Verified the Correct User Login.
+2019-06-17 02:01:58,180  INFO [TestNG] LoginTestCase:67 - Log out form the Amazon Account.
+2019-06-17 02:01:58,219  INFO [TestNG] LoginTestCase:69 - Verified Successful Logging out.
+2019-06-17 02:01:58,219  INFO [TestNG] LoginTestCase:70 - End of the Login- Logout Test
+2019-06-17 02:02:06,948  INFO [TestNG] SearchandAdditemTestCase:63 - serachandAddItemtoCart Test Started!
+2019-06-17 02:02:11,661  INFO [TestNG] SearchandAdditemTestCase:65 - Navigation to the Headphone Page
+2019-06-17 02:06:17,800  INFO [pool-1-thread-2] LoginTestCase:58 - Login- Logout Test Started!
+2019-06-17 02:06:19,219  INFO [pool-1-thread-1] LoginTestCase:39 - Login Test Started!
+2019-06-17 02:06:21,599  INFO [pool-1-thread-2] LoginTestCase:61 - Navigated to the Login Page From Home Page.
+2019-06-17 02:06:21,624 ERROR [pool-1-thread-1] LoginTestCase:50 - Exception Occured in Login Test stale element reference: element is not attached to the page document
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GUR00004638L', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\RKMishra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:20864}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 5791e91722d5c73234d03faa07e65246
+2019-06-17 02:06:22,394 ERROR [pool-1-thread-2] LoginTestCase:72 - Exception Occured in Login- Logout Test invalid session id
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GUR00004638L', ip: '192.168.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\RKMishra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:20864}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 5791e91722d5c73234d03faa07e65246
+2019-06-17 02:06:29,965  INFO [pool-1-thread-1] SearchandAdditemTestCase:63 - serachandAddItemtoCart Test Started!
+2019-06-17 02:06:34,211  INFO [pool-1-thread-1] SearchandAdditemTestCase:65 - Navigation to the Headphone Page

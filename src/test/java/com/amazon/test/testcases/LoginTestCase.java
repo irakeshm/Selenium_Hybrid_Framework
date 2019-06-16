@@ -48,6 +48,7 @@ public class LoginTestCase extends AmazonTestRoot {
 		} catch (Exception e) {
 			
 			log.error("Exception Occured in Login Test "+e.getMessage());
+			Assert.fail();
 		}
 	}
 	
@@ -69,6 +70,7 @@ public class LoginTestCase extends AmazonTestRoot {
 			log.info("End of the Login- Logout Test");
 		} catch (Exception e) {
 			log.error("Exception Occured in Login- Logout Test "+e.getMessage());
+			Assert.fail();
 		}
 	}
 	

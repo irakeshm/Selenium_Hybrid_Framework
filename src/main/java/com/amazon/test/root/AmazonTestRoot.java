@@ -13,6 +13,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.amazon.test.utilities.Constants;
@@ -60,7 +62,17 @@ public class AmazonTestRoot {
 		{
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/BrowserDrivers/geckodriver/geckodriver.exe");	
 			driver = new FirefoxDriver(); 
-		}		
+		}	
+		else if(browser.equals("safari"))
+		{
+			System.setProperty("webdriver.safari.driver", System.getProperty("user.dir")+"/BrowserDrivers/safaridriver/safaridriver.exe");	
+			driver = new SafariDriver(); 
+		}	
+		else if(browser.equals("IE"))
+		{
+			System.setProperty("webdriver.IE.driver", System.getProperty("user.dir")+"/BrowserDrivers/IEdriver/IEdriver.exe");	
+			driver = new InternetExplorerDriver(); 
+		}	
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Constants.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
