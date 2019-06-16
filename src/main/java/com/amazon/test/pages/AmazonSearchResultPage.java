@@ -1,5 +1,7 @@
 package com.amazon.test.pages;
 
-public class AmazonSearchResultPage {
+import com.amazon.test.root.AmazonTestRoot;
+
+public class AmazonSearchResultPage extends AmazonTestRoot{
 
 }

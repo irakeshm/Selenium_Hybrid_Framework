@@ -1,5 +1,7 @@
 package com.amazon.test.pages;
 
-public class AmazonLoginPage {
+import com.amazon.test.root.AmazonTestRoot;
+
+public class AmazonLoginPage extends AmazonTestRoot{
 
 }

@@ -1,5 +1,7 @@
 package com.amazon.test.pages;
 
-public class AmazonHeadphonesPage {
+import com.amazon.test.root.AmazonTestRoot;
+
+public class AmazonHeadphonesPage extends AmazonTestRoot{
 
 }
