@@ -9,8 +9,6 @@ package com.amazon.test.utilities;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Dictionary;
-import java.util.Hashtable;
 import java.util.List;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;

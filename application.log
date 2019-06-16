@@ -1,0 +1,22 @@
+2019-06-17 01:41:09,950  INFO [main] LoginTestCase:39 - Login Test Started!
+2019-06-17 01:41:12,703  INFO [main] LoginTestCase:42 - Navigated to the Login Page From Home Page.
+2019-06-17 01:41:16,166  INFO [main] LoginTestCase:44 - Log in to The Amazon Account.
+2019-06-17 01:41:16,251  INFO [main] LoginTestCase:46 - Verified the Correct User Login.
+2019-06-17 01:41:16,251  INFO [main] LoginTestCase:47 - End of the Login Test
+2019-06-17 01:41:24,029  INFO [main] LoginTestCase:57 - Login- Logout Test Started!
+2019-06-17 01:41:27,195  INFO [main] LoginTestCase:60 - Navigated to the Login Page From Home Page.
+2019-06-17 01:41:30,251  INFO [main] LoginTestCase:62 - Log in to The Amazon Account.
+2019-06-17 01:41:30,318  INFO [main] LoginTestCase:64 - Verified the Correct User Login.
+2019-06-17 01:41:31,931  INFO [main] LoginTestCase:66 - Log out form the Amazon Account.
+2019-06-17 01:41:31,963  INFO [main] LoginTestCase:68 - Verified Successful Logging out.
+2019-06-17 01:41:31,963  INFO [main] LoginTestCase:69 - End of the Login- Logout Test
+2019-06-17 01:41:33,525 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-06-17 01:41:33,528 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-06-17 01:41:33,530 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-17 01:41:33,532 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-17 01:41:33,534 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/RKMishra/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-06-17 01:41:34,019 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-06-17 01:41:34,020 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-06-17 01:41:34,021 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-06-17 01:41:34,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-06-17 01:41:34,028 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/RKMishra/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
