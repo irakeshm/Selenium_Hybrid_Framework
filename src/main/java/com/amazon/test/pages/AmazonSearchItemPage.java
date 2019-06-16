@@ -1,6 +1,10 @@
+
+/* Author: Rakesh Mishra
+ * Class: AmazonSearchItemPage.Java
+ * Info: Search Item Page, Which has item details. This class have methods and OR for Searched Page
+*/
+
 package com.amazon.test.pages;
-
-
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,12 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-
 import com.amazon.test.root.AmazonTestRoot;
-
-
-
 
 public class AmazonSearchItemPage extends AmazonTestRoot{
 	
@@ -43,12 +42,20 @@ public class AmazonSearchItemPage extends AmazonTestRoot{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public AmazonItemAddedSuccessPage addItemtoCart(int quantity) throws InterruptedException
-	{
+	public String addItemtoCart(int quantity)
+	{		
+		String productNameonPage=productName.getText();
 		Select selectQuantity = new Select(quanityDropDown);
 		selectQuantity.selectByValue(Integer.toString(quantity));
 		addToCartButton.click();
-		Thread.sleep(10000);
+		try 
+		{
+			Thread.sleep(5000);
+		} 
+		catch (InterruptedException e) 
+		{
+			e.printStackTrace();
+		}
 		try 
 		{
 		if(addtoCartSuccessWindow.isDisplayed())
@@ -60,9 +67,9 @@ public class AmazonSearchItemPage extends AmazonTestRoot{
 		}
 		catch(NoSuchElementException ex)
 		{
-			return new AmazonItemAddedSuccessPage();
+			return productNameonPage;
 		}
-		return new AmazonItemAddedSuccessPage();	
+		return productNameonPage;	
 	}
 	
 	public String itemAddtoCartSuccessMessage()

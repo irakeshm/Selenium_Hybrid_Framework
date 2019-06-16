@@ -1,3 +1,7 @@
+/* Author: Rakesh Mishra
+ * Class: AmazonElectronicsCategoryPage.Java
+ * Info: OR and Method for Electronics Category Page
+*/
 package com.amazon.test.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

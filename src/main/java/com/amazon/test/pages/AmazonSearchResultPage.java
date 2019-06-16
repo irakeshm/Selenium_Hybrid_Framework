@@ -1,3 +1,8 @@
+/* Author: Rakesh Mishra
+ * Class: AmazonSearchResultPage.Java
+ * Info: OR and Method for Serach Result Page
+*/
+
 package com.amazon.test.pages;
 
 import org.openqa.selenium.By;

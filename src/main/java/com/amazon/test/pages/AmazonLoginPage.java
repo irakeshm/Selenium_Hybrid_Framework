@@ -1,3 +1,8 @@
+
+/* Author: Rakesh Mishra
+ * Class: AmazonLoginPage.Java
+ * Info: OR and Method for Login Page and Logout Function, with Validation Methods
+*/
 package com.amazon.test.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +21,9 @@ public class AmazonLoginPage extends AmazonTestRoot{
 	@FindBy(id="signInSubmit")
 	WebElement signIn;
 	
+	@FindBy(xpath="//form[@name='signIn']")
+	WebElement signInForm;
+	
 	public AmazonLoginPage()
 	{
 		PageFactory.initElements(driver, this);
@@ -33,5 +41,10 @@ public class AmazonLoginPage extends AmazonTestRoot{
 		signIn.click();
 		
 		return new AmazonHomePage();
+	}
+	
+	public boolean existenceofSigninForm()
+	{
+		return signInForm.isDisplayed();
 	}
 }

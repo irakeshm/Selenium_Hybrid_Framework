@@ -1,5 +1,12 @@
+/* Author: Rakesh Mishra
+ * Class: AmazonElectronicsCategoryPage.Java
+ * Info: OR and Method for Amazon Home Page, Navigate to various 
+ * section and Pages are written here
+*/
+
 package com.amazon.test.pages;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
@@ -35,6 +42,9 @@ public class AmazonHomePage extends AmazonTestRoot{
 	
 	@FindBy(xpath="//a[@id='nav-cart']")
 	WebElement cartButton;
+	
+	@FindBy(id="nav-tools")
+	WebElement navHeader;
 	
 	
 	public AmazonHomePage()
@@ -82,6 +92,11 @@ public class AmazonHomePage extends AmazonTestRoot{
 	{
 		cartButton.click();
 		return new AmazonViewCartPage();
+	}
+	
+	public String getLoggedinUserName()
+	{
+		return navHeader.findElement(By.xpath("//span[contains(text(),'Hello')]")).getText();
 	}
 
 }

@@ -1,3 +1,7 @@
+/* Author: Rakesh Mishra
+ * Class: AmazonElectronicsCategoryPage.Java
+ * Info: OR and Method for Cart Page
+*/
 package com.amazon.test.pages;
 
 import java.util.Iterator;

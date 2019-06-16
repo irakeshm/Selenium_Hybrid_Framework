@@ -1,3 +1,9 @@
+
+/* Author: Rakesh Mishra
+ * Class: AmazonItemAddedSuccessPage.Java
+ * Info: OR and Method for the Page When Item is Added to the Cart and Success Pages Displayed.
+*/
+
 package com.amazon.test.pages;
 
 import org.openqa.selenium.WebElement;

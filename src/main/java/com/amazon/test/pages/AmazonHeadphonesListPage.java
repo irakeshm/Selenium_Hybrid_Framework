@@ -1,3 +1,8 @@
+/* Author: Rakesh Mishra
+ * Class: AmazonHeadphonesListPage.Java
+ * Info: OR and Method for Electronics Category Page> HeadPhone Lits Page
+*/
+
 package com.amazon.test.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
