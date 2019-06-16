@@ -33,6 +33,9 @@ public class AmazonHomePage extends AmazonTestRoot{
 	@FindBy(xpath="//span[contains(text(),'Electronics')]")
 	WebElement electronicsMenuItem;
 	
+	@FindBy(xpath="//a[@id='nav-cart']")
+	WebElement cartButton;
+	
 	
 	public AmazonHomePage()
 	{
@@ -73,6 +76,12 @@ public class AmazonHomePage extends AmazonTestRoot{
 		searchTextbox.sendKeys(itemName);
 		serachSubmitButton.click();
 		return new AmazonSearchResultPage();
+	}
+	
+	public AmazonViewCartPage navigateToCart()
+	{
+		cartButton.click();
+		return new AmazonViewCartPage();
 	}
 
 }
