@@ -7,6 +7,8 @@ import com.amazon.test.root.AmazonTestRoot;
 
 public class AmazonHomePage extends AmazonTestRoot{
 	
+	public static final String homepageTitle="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";
+	
 	@FindBy(id="nav-logo")
 	WebElement amazonlogo;
 	
@@ -25,6 +27,12 @@ public class AmazonHomePage extends AmazonTestRoot{
 	@FindBy(xpath="//div[@id='nav-flyout-ya-signin']//a[@class='nav-action-button']")
 	WebElement signInButton;
 	
+	@FindBy(xpath="//a[@id='nav-item-signout']")
+	WebElement signOutButton;
+	
+	@FindBy(xpath="//span[contains(text(),'Electronics')]")
+	WebElement electronicsMenuItem;
+	
 	
 	public AmazonHomePage()
 	{
@@ -42,6 +50,29 @@ public class AmazonHomePage extends AmazonTestRoot{
 		action.moveToElement(accountContextMenu).build().perform();
 		signInButton.click();
 		return new AmazonLoginPage();
+	}
+	
+	public AmazonLoginPage signOutAmazonAccount()
+	{
+		Actions action = new Actions(driver);
+		action.moveToElement(accountContextMenu).build().perform();
+		signOutButton.click();
+		return new AmazonLoginPage();
+	}
+	
+	public AmazonElectronicsCategoryPage navigateToHeadphonePage()
+	{
+		Actions action = new Actions(driver);
+		action.moveToElement(departmentsContextMenu).build().perform();
+		electronicsMenuItem.click();
+		return new AmazonElectronicsCategoryPage();
+	}
+	
+	public AmazonSearchResultPage serachItemByName(String itemName)
+	{
+		searchTextbox.sendKeys(itemName);
+		serachSubmitButton.click();
+		return new AmazonSearchResultPage();
 	}
 
 }

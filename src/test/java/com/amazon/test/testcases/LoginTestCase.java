@@ -33,6 +33,14 @@ public class LoginTestCase extends AmazonTestRoot {
 		homePage=loginPage.loginAmazonAccount(prop.getProperty("useremail"), prop.getProperty("password"));
 	}
 	
+	@Test
+	public void logoutFromAmazonAccount()
+	{
+		loginPage=homePage.navigateToLoginPage();
+		homePage=loginPage.loginAmazonAccount(prop.getProperty("useremail"), prop.getProperty("password"));
+		loginPage=homePage.signOutAmazonAccount();
+	}
+	
 	@AfterMethod
 	public void tearDown()
 	{
