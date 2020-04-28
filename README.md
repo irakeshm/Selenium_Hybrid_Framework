@@ -10,9 +10,9 @@ This Test Automation Framework is a Hybrid Test Automation Framework, designed t
 • Logging: Log4J
 • Browsers Supports: Google Chrome, Firefox, Safari, IE
 # 2. Framework Architecture
-# Check Readme.pdf for more details
+Check Readme.pdf for more details
 # 3. Project File Structure
-# Check Readme.pdf for more details
+Check Readme.pdf for more details
 # 4. Test Execution and Result File
 TestNG xml files is used to execute the Test cases, even for the parallel execution, we can use the TestNG xml file. We just need to execute the testng.xml file as a “TestNG” project to execute the Test Suits.
 After Execution, Test Result file (Extent Report) will be Generated.
